@@ -3,7 +3,7 @@ import requests
 
 def get_data(username: str, password: str) -> list:
     """
-    Grabs the data from the server, returns in a list [[username, password], [username, password], [username, password
+    Grabs the data from the server, returns in a list [[username, password], [username, password], [username, password]]
     """
     url = f"http://localhost:5000/search?search={username}&select=username"
     response = requests.get(url)
