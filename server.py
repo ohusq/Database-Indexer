@@ -34,4 +34,4 @@ def search():
     return render_template("search_results.html", results=results)
 
 if __name__ == '__main__':
-    app.run(host='', port=5000, debug=True)
+    app.run(host='', port=5000, debug=False)
